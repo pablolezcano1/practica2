@@ -1,0 +1,123 @@
+* {
+    font-size: 25px;
+    color: white;
+    background-color: white;
+}
+
+header {
+    margin: 40px;
+    padding: 34px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    background-color: rgb(20, 93, 196);
+}
+
+.nav1 {
+    margin: 40px;
+    padding: 4px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    background-color: blue;
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+}
+nav, aside {
+    flex: 0 0 300px; /* Ancho deseado para nav y aside */
+}  
+main {
+    padding: 4px;
+    flex: 1; /* El main ocupará el espacio restante */
+}
+
+.nav2 {
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(71, 155, 219);
+    height: 900px;
+    color: white;
+}
+
+.divdentronav {
+    text-align: center;
+    height: 150px;
+    margin: 30px;
+    padding: 16px;
+    background-color: rgb(67, 139, 142);
+    color: white;
+}
+
+main {
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(67, 139, 142);
+    height: 900px;
+    color: white;
+}
+
+.firstsection {
+    margin: 22px;
+    padding: 30px;
+    color: black;
+    background-color: rgb(227, 223, 223);
+    height: 339px;
+}
+.secondsection {
+    margin: 22px;
+    padding: 30px;
+    color: black;
+    background-color: rgb(227, 223, 223);
+    height: 339px;
+}
+.firstarticle {
+    padding: 15px;
+}
+article {
+    padding: 15px;
+    color: white;
+    background-color: rgb(96, 95, 95);
+
+}
+.divdentromain, .divdentrodiv {
+    padding: 15px;
+    display: flex;
+    color: white;
+    background-color: rgb(67, 139, 142);
+}
+
+.asideDentroMain {
+    text-align: left;
+    padding: 30px;
+    color: white;
+    background-color: rgb(199, 199, 199);
+}
+.aside1 {
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(160, 160, 162);
+}
+
+.divdentroaside {
+    text-align: center;
+    height: 150px;
+    margin: 30px;
+    padding: 16px;
+    background-color: rgb(67, 139, 142);
+    color: white;
+}
+
+footer {
+    margin: 40px;
+    padding: 34px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    background-color: rgb(32, 122, 168);
+}
